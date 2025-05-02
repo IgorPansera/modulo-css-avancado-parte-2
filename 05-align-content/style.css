@@ -1,14 +1,14 @@
 .flex-start {
     display: flex;
     align-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   
   .flex-end {
     display: flex;
     align-content: flex-end;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   
@@ -17,6 +17,7 @@
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .space-between {
